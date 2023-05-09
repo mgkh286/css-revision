@@ -1,0 +1,79 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+.a {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.aa {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 3;
+}
+.aaa {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    z-index:5 ;
+}
+.aaaa {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+    
+}
+
+a:visited{
+    color: blue;
+}
+
+.checkbox:checked {
+    opacity:1;
+}
+
+.text:focus {
+    outline: none;
+    border: 5px solid rgb(0, 13, 128);
+}
+
+P::first-letter{
+   color: red;
+   font-size: 40px;
+}
+
+p::first-line {
+   color: #0b31db;
+}
+
+::selection{
+   background-color: #d6ec10;
+   color: brown;
+}
