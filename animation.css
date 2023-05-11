@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* .animation {
     width: 200px;
     height: 200px;
@@ -13,7 +19,6 @@
     to{}
 } */
 
-
 /* @keyframes animation {
     0%
        {background: blue;}
@@ -22,3 +27,55 @@
     100%
       {background: green;}
 } */
+
+.container {
+  width: 200px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.ul {
+    position: relative;
+  display: inline-flex;
+  animation: Animation 4s infinite ease-in-out;
+}
+
+.list1 {
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+
+.list2 {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+.list3 {
+  width: 200px;
+  height: 200px;
+  background: yellow;
+}
+
+.list4 {
+  width: 200px;
+  height: 200px;
+  background: green;
+}
+
+@keyframes Animation {
+  0% {
+    right: 0;
+  }
+
+  30% {
+    right: 200px;
+  }
+  60% {
+    right: 400px;
+  }
+  100% {
+    right: 600px;
+  }
+}
