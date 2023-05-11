@@ -1,0 +1,24 @@
+/* .animation {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    padding-top: 7rem;
+    animation: animation 7s;
+} */
+
+/* @keyframes animation {
+    from{}
+    to{}
+} */
+
+
+/* @keyframes animation {
+    0%
+       {background: blue;}
+    50%
+       {background: yellow;}
+    100%
+      {background: green;}
+} */
