@@ -1,0 +1,56 @@
+
+/* to shoe media on all screens */
+/* @media all {
+    
+
+div
+ {
+   background-color: #ffd000;
+   color: #000;
+   text-align: center;
+}
+
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+.all {
+    display: inline-block;
+    width: 40%;
+
+    background: grey;
+}
+
+/* Mobile devices  */
+@media screen and (max-width: 400px){
+    .all{
+        display: block;
+        width: 100%;
+    }
+
+    body {
+        background: #000;
+    }
+}
+
+
+/* tablet  */
+
+@media screen and (min-width:401px) and (max-width:600px) {
+    body {
+        background: #0fe220;
+    }
+}
+
+
+/* desktop  */
+@media screen and (min-width:601px) and (max-width:768px) {
+    body {
+        background: #e20f71;
+    }
+}
+

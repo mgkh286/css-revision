@@ -1,0 +1,32 @@
+p{
+    width: 70%;
+    background: #aaa;
+    padding: 10px;
+    position: relative;
+}
+
+/* p::before{
+    content: "Hello ";
+    color: blueviolet;
+} */
+
+
+/* p::before{
+    content: " ";
+    height: 100%;
+    width: 5px;
+    background: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+p::before{
+    content: " ";
+    height: 5px;
+    width: 100%;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
