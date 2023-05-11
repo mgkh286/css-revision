@@ -1,9 +1,12 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
+body {
+    padding: 40px 10px;
+}
 
 .a {
     width: 100px;
@@ -41,17 +44,17 @@
     right: 120px;
 }
 
-a{
+.link{
     color: red;
     text-decoration: none;
 }
 
-a:hover{
+.link:hover{
     color: green;
     
 }
 
-a:visited{
+.link:visited{
     color: blue;
 }
 
