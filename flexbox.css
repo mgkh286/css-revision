@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.parent {
+  background: gold;
+  padding: 10px;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  align-content: start;
+}
+
+.parent div {
+  padding: 10px;
+  margin: 10px;
+}
+
+.item1 {
+  background: green;
+}
+
+.item2 {
+  background: red;
+}
+
+.item3 {
+  background: blue;
+}
+
+.item4 {
+  background: violet;
+}
